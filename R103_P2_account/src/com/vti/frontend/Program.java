@@ -16,12 +16,12 @@ public class Program {
 		department1.name = "Sale";
 
 		Department department2 = new Department();
-		department1.id = 2;
-		department1.name = "BOD";
+		department2.id = 2;
+		department2.name = "BOD";
 
 		Department department3 = new Department();
-		department1.id = 3;
-		department1.name = "Maketting";
+		department3.id = 3;
+		department3.name = "Maketting";
 
 //		Tạo ra các position
 		Position position1 = new Position();
@@ -87,6 +87,26 @@ public class Program {
 
 		Group[] groupAccount3 = { group1 };
 		account3.groups = groupAccount3;
+
+////		 Hiển thị thông tin account 1
+//		System.out.println("Account, id: " + account1.id + " ,email: " + account1.email + " ,fullname: "
+//				+ account1.fullName + " ,department: " + account1.department.name + " ,group: "
+//				+ account1.groups[0].name + " ," + account1.groups[1].name);
+//
+////		 Hiển thị thông tin account 2
+//		System.out.println("Account, id: " + account2.id + " ,email: " + account2.email + " ,fullname: "
+//				+ account2.fullName + " ,department: " + account2.department.name + " ,group: "
+//				+ account2.groups[0].name + " ," + account2.groups[1].name);
+
+//		account1.showInfoAccount();
+//		account2.showInfoAccount();
+//		account3.showInfoAccount();
+
+		System.out.println(account1.toString());
+		System.out.println(account2.toString());
+
+		System.out.println(department1.toString());
+		System.out.println(department2.toString());
 	}
 
 }
