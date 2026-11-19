@@ -101,12 +101,21 @@ public class Program {
 //		account1.showInfoAccount();
 //		account2.showInfoAccount();
 //		account3.showInfoAccount();
+//
+//		System.out.println(account1.toString());
+//		System.out.println(account2.toString());
+//
+//		System.out.println(department1.toString());
+//		System.out.println(department2.toString());
 
-		System.out.println(account1.toString());
-		System.out.println(account2.toString());
+//		Ex1-Q1:
+		if (account2.department == null) {
+			System.out.println("Nhân viên chưa có phòng ban");
+		} else {
+			System.out.println("Nhân viên đã có phòng ban");
+			System.out.println("Phòng của nhân viên này là:" + account2.department.name);
+		}
 
-		System.out.println(department1.toString());
-		System.out.println(department2.toString());
 	}
 
 }
